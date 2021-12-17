@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.1" class="java.beans.XMLDecoder">
+    <object class="java.util.ArrayList">
+        <void method="add">
+            <object class="univer.Final.services.Country" id="Country0">
+                <void property="cities">
+                <void method="add">
+                    <object class="univer.Final.services.City">
+                        <void property="country">
+                            <object idref="Country0"/>
+                        </void>
+                        <void property="identification">
+                            <string>07100</string>
+                        </void>
+                        <void property="name">
+                            <string>Slavutich</string>
+                        </void>
+                        <void property="population">
+                            <int>25000</int>
+                        </void>
+                    </object>
+                </void>
+                <void method="add">
+                    <object class="univer.Final.services.City">
+                    <void property="capital">
+                        <boolean>true</boolean>
+                    </void>
+                    <void property="country">
+                        <object idref="Country0"/>
+                    </void>
+                    <void property="identification">
+                        <string>00012</string>
+                    </void>
+                    <void property="name">
+                    <string>Kiuv</string>
+                </void>
+                <void property="population">
+                    <int>2700000</int>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="univer.Final.services.City">
+                <void property="country">
+                    <object idref="Country0"/>
+                </void>
+                <void property="identification">
+                    <string>23135</string>
+                </void>
+                <void property="name">
+                    <string>Rivne</string>
+                </void>
+                <void property="population">
+                    <int>223000</int>
+                </void>
+            </object>
+        </void>
+    </void>
+    <void property="identification">
+        <string>27013</string>
+    </void>
+    <void property="name">
+        <string>Ukraine</string>
+    </void>
+</object>
+        </void>
+<void method="add">
+<object class="univer.Final.services.Country">
+    <void property="identification">
+        <string>23146</string>
+    </void>
+    <void property="name">
+        <string>Poland</string>
+    </void>
+</object>
+</void>
+        </object>
+        </java>
